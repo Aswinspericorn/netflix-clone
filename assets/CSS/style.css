@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+
+}
+.header {
+  background: url(../images/img1.jpg);
+  background-size: cover;
+  height: 670px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.navbar {
+  background-color: rgb(0, 0, 0, 0.8);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar h3 {
+  color: #e8501d;
+  font-size: 35px;
+  margin-top: 30px;
+}
+.selectt {
+  height: 35px;
+  width: 90px;
+  background-color: rgb(0, 0, 0, 0.7);
+  color: white;
+  font-size: 15px;
+  margin: 20px;
+  outline: white;
+}
+option:hover {
+  background-color: cadetblue;
+}
+.buttons{
+  margin-top: 23px;
+}
+.button {
+  height: 35px;
+  width: 80px;
+  background-color: #e8501d;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 3px;
+  margin:0 50px 0 10px ;
+}
+.title-container {
+  position: absolute;
+  height: 600px;
+  background-color: rgb(0, 0, 0, 0.6);
+  width: 100%;
+  justify-content: center;
+}
+.title {
+  color: white;
+  position: absolute;
+  left: 25%;
+  top: 26%;
+  text-align: center;
+  width: 70%;
+}
+.title h1{
+  font-size: 50px;
+  margin: 0;
+  width: 70%;
+}
+#p1{
+    font-size: 30px;
+    margin: 10px;
+    width: 70%;
+}
+#p2{
+    font-size: 20px;
+    width: 80%;
+}
+.input-button{
+  display: flex;
+}
+#input{
+    height: 55px;
+    margin: 0;
+    width: 450px;
+    font-size: 18px;
+    color: rgb(206, 197, 197);
+}
+.button-get-started{
+    height: 60px;
+    width: 200px;
+    background-color: #e8501d;
+    color: white;
+    font-size: 25px;
+    border: none;
+    margin: 0;
+    padding: 5px;
+}
+.input-buttor{
+  display: inline;
+}
+hr{
+  height: 8px;
+  background-color: #222222;
+  margin: 0;
+  outline: none;
+  border: none;
+}
+.sectionn{
+  background-color: black;
+  height: 500px;
+  display: flex;
+  max-width: 100%;
+}
+.tv-description{
+  color:white;
+  width: 40%;
+  padding: 5% 8% 0 5% ;
+}
+.tv-description h1{
+  font-size: 50px;
+}
+.tv-description p{
+  font-size: 25px;
+}
+.tv{
+  width: 50%;
+  height: 400px;
+  position: relative;
+}
+
+img{
+  height: 400px;
+  position: absolute;
+  margin: 0;
+  }
+#video1{
+  position: absolute;
+  height: 390px;
+  width:378px;
+  margin-left: 72px;
+}
+.stranger-things{
+  position: relative;
+  width: 50%;
+  height: 400px;
+}
+.stranger-things img{
+  width: 52px;
+  height: 70px;
+  position: absolute;
+}
+#video2{
+  position: absolute;
+  height: 369px;
+  width: 325px;
+  margin-left: 72px;
+  bottom: 79px;
+  left: 28px;
+}
+.section-last{
+  text-align: center;
+  background-color: black;
+  color: white;
+  justify-content: center;
+}
+.section-last h1{
+  margin: 0;
+  font-size: 50px;
+}
+.dropdown{
+  margin: 10px;
+}
+.visible{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  font-size: 25px;
+  height: 100px;
+  background-color: #222222 ;
+}
+.visible h3{
+  padding: 0 10px ;
+}
+
+.dropdown-container :hover .dropdown-content {
+  display:block;
+
+}
+.dropdown-content{
+  width: 70%;
+  margin: auto;
+  font-size: 25px;
+  text-align: start;
+  display: none;
+}
+.dropdown-content h3{
+  padding: 0 30px;
+}
+.input-buttons{
+  display: flex;
+  max-width: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+footer{
+  background-color: black;
+  color: white;
+  position: relative;
+}
+footer h3{
+  margin: auto;
+  text-align: center;
+}
+.footer-list{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  max-width:70%;
+  margin: auto;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color:#222222;
+  font-weight: 700;
+}
